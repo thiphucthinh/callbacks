@@ -36,6 +36,7 @@ function count(array, cb) {
   return count;
 }
 
+// Example
 let result1 = count([18, 5, 32, 7, 100], function (n) {
   return n % 2 === 0;
 });
@@ -55,6 +56,7 @@ let result4 = count(['follow', 'the', 'yellow', 'brick', 'road'], function (str)
   return str.includes('x');
 });
 console.log(result4); // 0
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = count;

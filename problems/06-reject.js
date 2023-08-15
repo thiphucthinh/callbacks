@@ -31,6 +31,7 @@ function reject(array, cb) {
   return newArray;
 }
 
+// Example
 let isEven = function(n) {
   return n % 2 === 0;
 };
@@ -40,6 +41,7 @@ let hasA = function(s) {
   return s.toLowerCase().includes('a');
 };
 console.log(reject(['breadth', 'GRAPH', 'depth', 'height'], hasA)); // [ 'depth', 'height' ]
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = reject;

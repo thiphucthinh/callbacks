@@ -50,6 +50,7 @@ function selectiveMap(array, selector, mapper) {
     return newArr;
 }
 
+// Example
 function isEven(n) {
     return n % 2 === 0;
 }

@@ -28,6 +28,7 @@ function multiMap(val, n, cb) {
   return val;
 }
 
+// Example
 let result1 = multiMap(7, 2, function(n) {
   return n * 10;
 });

@@ -53,6 +53,7 @@ myForEach(['a', 'b', 'c'], function (el, i) {
 //     test.push(el.toUpperCase());
 // });
 // console.log(test); // ['LAIKA', 'BELKA']
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
     module.exports = myForEach;
