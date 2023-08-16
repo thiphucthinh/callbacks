@@ -35,6 +35,7 @@ let xorSelect = function(array, cb1, cb2) {
   return array.filter(el => (cb1(el) || cb2(el)) && !(cb1(el) && cb2(el)));
 };
 
+// Example
 let isEven = function(n) {
   return n % 2 === 0;
 };
@@ -59,6 +60,7 @@ console.log(
   xorSelect(["art", "academy", "app", "cat", "buttery"], longString, startsA)
 );
 // [ 'art', 'app', 'buttery' ]
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = xorSelect;
