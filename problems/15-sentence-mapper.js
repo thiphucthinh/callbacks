@@ -31,6 +31,7 @@ let sentenceMapper = function (sentence, cb) {
   return newSentence.join(' ');
 };
 
+// Example
 let result1 = sentenceMapper("what is the answer?", function(word) {
   return word.toUpperCase() + "!";
 });
@@ -49,6 +50,7 @@ let removeVowels = function(word) {
 
 let result2 = sentenceMapper("this is pretty cool right", removeVowels);
 console.log(result2); // 'ths s prtty cl rght'
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = sentenceMapper;

@@ -30,6 +30,7 @@ function atMost(array, max, cb) {
   return count <= max;
 }
 
+// Example
 let isPositive = function (n) {
   return n > 0;
 };
@@ -43,6 +44,7 @@ console.log(atMost([6, 2, 4, 1], 3, isPositive));                               
 console.log(atMost(['boat', 'cat', 'car'], 1, startsWithA));                    // true
 console.log(atMost(['boat', 'cat', 'car', 'academy'], 1, startsWithA));         // true
 console.log(atMost(['boat', 'arc', 'cat', 'car', 'academy'], 1, startsWithA));  // false
+
 /*****************DO NOT MODIFY ANYTHING UNDER THIS  LINE**********************/
 try {
   module.exports = atMost;
